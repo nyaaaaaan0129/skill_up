@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+img {
+	float:left;
+	width: 140px;
+	height: 70px;
+	object-fit: cover;
+}
+
+nav {
+	float:right;
+}
+
+.nav-list {
+	width:120px;
+	float:left;
+	list-style: none;
+	line-height: 70px;
+	font-size: 16px;
+	padding: 0 30px 0 30px;
+}
+
+.nav-list a {
+	color:#FAFAFA;
+	text-decoration:none;
+}
+
+.main-visual {
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+}
+
+h1 {
+	padding-top: 200px;
+	margin-bottom: 10px;
+	font-size: 64px;
+	color: white;
+	text-align: center;
+}
+
+.mv-text {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+.portfolio {
+	background-color: #ECEFF1;
+}
+
+h2.heading::after {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+	margin: 8px auto 0 auto;
+}
+
+h2 {
+	font-size: 32px;
+	padding-top: 90px;
+	color: #000000;
+	text-align: center;
+}
+
+.text {
+	font-size: 16px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.image-boxes {
+	width: 920px;
+	margin: 0 auto;
+}
+
+.image {
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+
+.box1 {
+	background-image: url(img/sketch.jpg);
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.box2 {
+	background-image: url(img/websuku.png);
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.box3 {
+	background-image: url(img/write.jpg);
+	margin-bottom:10px;
+}
+
+.box4 {
+	background-image: url(img/webcamp.png);
+	margin-right:10px;
+	margin-bottom:90px;
+}
+
+.box5 {
+	background-image: url(img/talk.jpg);
+	margin-right:10px;
+	margin-bottom:90px;
+}
+
+.box6 {
+	background-image: url(img/webcamp-mother.png);
+	margin-bottom:90px;
+}
+
+.feature-boxes {
+	width: 980px;
+    margin: 0 auto;
+}
+
+.explanation {
+	width: 320px;
+	height: auto;
+	text-align:center;
+	float:left;
+}
+
+.icon {
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+
+.two {
+  margin:0 10px 90px 10px;
+}
+
+.feature-title {
+	margin-bottom:10px;
+}
+
+.profile {
+	background-color: #ECEFF1;
+	padding-bottom: 90px;
+}
+
+.profile-contents {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.my-face {
+	width: 50%;
+	float:left;
+}
+
+.my-face-image {
+	background-image: url(img/my-icon.jpg);
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+
+.myself {
+	float:right;
+}
+
+.myself-title {
+	margin-bottom: 5px;
+}
+
+.myself-text {
+	margin-bottom: 20px;
+}
+
+.contact {
+	margin-bottom:90px;
+}
+
+.contact-contents {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.left-content {
+	width: 50%;
+	float:left;
+}
+
+.mail-tel {
+	width: 130px;
+	margin:0 auto;
+}
+
+.mail {
+	margin-bottom: 20px;
+}
+
+.mail-tel-title {
+	margin-bottom: 5px;
+}
+
+.sns-icon {
+	font-size: 50px;
+	float:left;
+}
+
+
+.fa-twitter {
+	margin: 0 20px 0 20px;
+}
+
+.right-content {
+	width: 50%;
+	float: right;
+}
+
+footer {
+	height:60px;
+	background-color: #EC715F;
+}
+
+.footer-text {
+	line-height: 60px;
+	text-align: center;
+	color: white;
+}
+.right-content-sns {
+	width:200px;
+	margin: 0 auto;
+}
+
+.SNS {
+	margin-bottom: 5px;
+}
