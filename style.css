@@ -262,3 +262,139 @@ footer {
 .SNS {
 	margin-bottom: 5px;
 }
+
+@media screen and (max-width:768px) {
+
+body {
+	width: 100%;
+}
+
+img {
+	float:none;
+}
+
+nav {
+	float:none;
+}
+
+.nav-list {
+	float:none;
+	display: none;
+}
+
+.image {
+	float:none;
+	margin: 10px auto;
+}
+
+.explanation {
+	float:none;
+	margin: 10px auto;
+}
+
+.my-face {
+	float:none;
+	margin: 20px auto;
+}
+
+.myself {
+	float:none;
+}
+
+.myself-title {
+	text-align: center;
+}
+
+.myself-text {
+	text-align: center;
+}
+
+.left-content {
+	float:none;
+	margin: 10px auto;
+}
+
+.right-content {
+	float:none;
+	margin: 10px auto;
+}
+
+.container {
+	width: 90%;
+	padding: 0 5%;
+}
+
+.feature-boxes {
+	width: 90%;
+	padding: 0 5%;
+}
+
+.image-boxes {
+	width: 90%;
+    padding: 0 5%;
+
+}
+
+.profile-contents {
+	width: 90%;
+	padding: 0 5%;
+
+}
+
+.contact-contents {
+	width: 90%;
+	padding: 0 5%;
+
+}
+
+.box1  {
+	display:none;
+}
+
+.box3 {
+	display:none;
+}
+
+.box5 {
+	display:none;
+}
+
+.main-visual {
+	background-image: url(img/code.png);
+}
+
+.text {
+	text-align: center;
+}
+
+.mail-tel-title {
+	text-align: center;
+}
+
+.SNS {
+	text-align: center;
+}
+
+.menu-box {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 5%;
+    border: 1px solid #FAFAFA;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.list-bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 8px auto;
+    background-color: #FAFAFA;
+}
+
+.my-face-image {
+	margin: 0 auto;
+}
+
+}
